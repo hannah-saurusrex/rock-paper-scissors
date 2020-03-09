@@ -4,3 +4,17 @@
 	right: 50px;
 	bottom: 150px;
 }
+
+.button-container > button {
+	font-family: "Barlow Semi Condensed", sans-serif;
+	color: white;
+	background: transparent;
+	height: 40px;
+	width: 140px;
+	font-size: 17px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	border-radius: 8px;
+	border: 1px solid white;
+	cursor: pointer;
+}
