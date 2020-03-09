@@ -1,3 +1,32 @@
 .scoreboard {
 	width: 50%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+	border-radius: 8px;
+	border: 2px solid hsl(217, 16%, 45%);
+	font-size: 28px;
+	line-height: 24px;
+	text-transform: uppercase;
+}
+
+.scoreboard > div:nth-child(2) {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: white;
+	color: hsl(229, 64%, 46%);
+	border-radius: 8px;
+	padding: 10px 50px;
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+
+.scoreboard > div:nth-child(2) > div:nth-child(2) {
+	color: hsl(229, 25%, 31%);
+	margin-top: 20px;
+	font-size: 64px;
+	font-weight: 700;
+	padding-bottom: 30px;
 }
