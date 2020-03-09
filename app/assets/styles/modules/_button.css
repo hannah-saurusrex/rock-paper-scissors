@@ -11,10 +11,15 @@
 	background: transparent;
 	height: 40px;
 	width: 140px;
-	font-size: 17px;
+	font-size: 16px;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	border-radius: 8px;
 	border: 1px solid white;
 	cursor: pointer;
+}
+
+.button-container > button:hover {
+	background: white;
+	color: hsl(229, 64%, 46%);
 }
