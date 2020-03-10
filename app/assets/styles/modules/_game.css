@@ -1,8 +1,7 @@
 .game {
-	display: grid;
-	grid-template-areas:
-		". scissors ."
-		"rock . paper";
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
 	width: 550px;
 	margin: 0 auto;
 	margin-top: 50px;
@@ -10,16 +9,8 @@
 	position: relative;
 }
 
-.game > div:nth-child(1) {
-	grid-area: scissors;
-}
-
-.game > div:nth-child(2) {
-	grid-area: paper;
-}
-
-.game > div:nth-child(3) {
-	grid-area: rock;
+.option {
+	flex: 1;
 }
 
 .game > div > div {
