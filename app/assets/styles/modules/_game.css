@@ -18,15 +18,13 @@
 }
 
 .pentagon {
-	position: absolute;
-	z-index: 0;
-	top: 0;
-	left: 80px;
+	display: flex;
 }
 
 .pentagon img {
-	height: 100%;
-	padding: 70px;
+	align-items: flex-start;
+	display: flex;
+	margin-top: -400px;
 }
 
 .wrapper-paper img,
@@ -38,7 +36,7 @@
 }
 
 .top-row {
-	margin-bottom: 4rem;
+	margin-bottom: 6rem;
 	display: flex;
 }
 
