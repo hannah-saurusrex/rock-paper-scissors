@@ -17,6 +17,7 @@
 	border-radius: 8px;
 	border: 1px solid white;
 	cursor: pointer;
+	outline: none;
 }
 
 .button-container > button:hover {
