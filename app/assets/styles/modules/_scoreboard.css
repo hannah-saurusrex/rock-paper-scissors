@@ -28,6 +28,7 @@
 	font-size: 0.9rem;
 	letter-spacing: 0.1rem;
 }
+
 .score-number {
 	color: var(--neutral-dark-text);
 	font-size: 70px;
