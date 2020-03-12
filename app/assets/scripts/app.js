@@ -10,3 +10,7 @@ function shuffle(array) {
     }
     return array;
 };
+
+const btnRules = document.getElementById('rules');
+const modalOverlay = document.getElementsByClassName('.modal-container');
+const btnCloseRules = document.getElementById('close');

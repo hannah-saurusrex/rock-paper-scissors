@@ -23,4 +23,5 @@
 .button-container > button:hover {
 	background: white;
 	color: hsl(229, 64%, 46%);
+	transition: all 0.3s ease;
 }
