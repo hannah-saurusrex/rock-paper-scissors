@@ -46,6 +46,11 @@ h1 {
 	text-transform: uppercase;
 }
 
+h2 {
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
 h4 {
 	color: hsl(229, 64%, 46%);
 	letter-spacing: 5px;
@@ -98,6 +103,15 @@ main::before {
 	margin: 0 25px;
 	height: 150px;
 	width: 150px;
+	cursor: pointer;
+}
+
+.btn-circle:focus {
+	outline: none;
+}
+
+.btn-circle:active {
+	transform: scale(0.9);
 }
 
 .btn-circle .wrapper {
@@ -143,6 +157,41 @@ main::before {
 	position: fixed;
 	bottom: 30px;
 	right: 30px;
+	text-transform: uppercase;
+}
+
+.btn {
+	background-color: #fff;
+	border: 2px solid #fff;
+	border-radius: 10px;
+	color: hsl(229, 25%, 31%);
+	font-family: inherit;
+	font-size: 20px;
+	letter-spacing: 2px;
+	padding: 10px 25px;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.selection {
+	display: none;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+	width: 800px;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+.selection .btn-circle {
+	margin: 50px;
+	transform: scale(1.4);
+}
+
+.big-text {
+	font-size: 3rem;
+	line-height: 0.8;
+	margin: 0 0 20px;
 	text-transform: uppercase;
 }
 

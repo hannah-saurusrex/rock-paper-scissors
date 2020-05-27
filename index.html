@@ -31,27 +31,50 @@
 				</div>
 			</header>
 
-			<main>
-				<button class="btn-circle btn-paper">
+			<main id="main">
+				<button class="btn-circle btn-paper pick" data-choice="paper">
 					<span class="wrapper">
 						<img src="./images/icon-paper.svg" alt="paper icon" />
 					</span>
 				</button>
-				<button class="btn-circle btn-scissors">
+				<button class="btn-circle btn-scissors pick" data-choice="scissors">
 					<span class="wrapper">
 						<img src="./images/icon-scissors.svg" alt="scissors icon" />
 					</span>
 				</button>
-				<button class="btn-circle btn-rock">
+				<button class="btn-circle btn-rock pick" data-choice="rock">
 					<span class="wrapper">
 						<img src="./images/icon-rock.svg" alt="rock icon" />
 					</span>
 				</button>
-			</main>
 
 			<button class="btn-rules">Rules</button>
 		</div>
-		<footer>
+
+		<div class="selection" id="selection">
+			<div>
+				<h2>You picked</h2>
+				<button class="btn-circle btn-paper" id="user_select">
+					<span class="wrapper">
+						<img src="./images/icon-paper.svg" alt="paper icon" />
+					</span>
+				</button>
+			</div>
+			<div>
+				<p class="big-text">You <span id="winner">win</span></p>
+				<button class="btn" id="reset">Play again</button>
+			</div>
+			<div>
+				<h2>The house picked</h2>
+				<button class="btn-circle btn-rock" id="computer_select">
+					<span class="wrapper">
+						<img src="./images/icon-rock.svg" alt="rock icon" />
+					</span>
+				</button>
+			</div>
+		</div>
+
+		<!-- <footer>
 			<div class="attribution">
 				Challenge by
 				<a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
@@ -63,6 +86,6 @@
 				</a>
 				.
 			</div>
-		</footer>
+		</footer> -->
 	</body>
 </html>
