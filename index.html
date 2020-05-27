@@ -3,25 +3,54 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="./assets/styles/styles.css" />
-		<link
-			href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:600,700&display=swap"
-			rel="stylesheet"
-		/>
 		<!-- displays site properly based on user's device -->
-
+		<link rel="stylesheet" href="style.css" />
 		<link
 			rel="icon"
 			type="image/png"
 			sizes="32x32"
 			href="./images/favicon-32x32.png"
 		/>
+		<script src="script.js" defer></script>
 
 		<title>Frontend Mentor | Rock, Paper, Scissors</title>
 
 		<!-- Score Rules You Picked The House Picked You Win You Lose Play Again -->
 	</head>
 	<body>
+		<div class="container">
+			<header>
+				<h1>
+					<span>Rock</span>
+					<span>Paper</span>
+					<span>Scissors</span>
+				</h1>
+				<div class="score-container">
+					<h4>Score</h4>
+					<p id="score">0</p>
+				</div>
+			</header>
+
+			<main>
+				<button class="btn-circle btn-paper">
+					<span class="wrapper">
+						<img src="./images/icon-paper.svg" alt="paper icon" />
+					</span>
+				</button>
+				<button class="btn-circle btn-scissors">
+					<span class="wrapper">
+						<img src="./images/icon-scissors.svg" alt="scissors icon" />
+					</span>
+				</button>
+				<button class="btn-circle btn-rock">
+					<span class="wrapper">
+						<img src="./images/icon-rock.svg" alt="rock icon" />
+					</span>
+				</button>
+			</main>
+
+			<button class="btn-rules">Rules</button>
+		</div>
 		<footer>
 			<div class="attribution">
 				Challenge by
@@ -35,7 +64,5 @@
 				.
 			</div>
 		</footer>
-
-		<script src="./assets/scripts/app.js"></script>
 	</body>
 </html>
