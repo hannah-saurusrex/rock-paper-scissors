@@ -48,7 +48,13 @@
 					</span>
 				</button>
 
-			<button class="btn-rules">Rules</button>
+				<div class="rules-modal" id="modal">
+					<img src="./images/image-rules.svg" alt="rules illustration" />
+					<button id="close">
+						<img src="./images/icon-close.svg" alt="close icon" />
+					</button>
+				</div>
+			<button class="btn-rules" id="open">Rules</button>
 		</div>
 
 		<div class="selection" id="selection">
@@ -60,7 +66,7 @@
 					</span>
 				</button>
 			</div>
-			<div>
+			<div class="go-down">
 				<p class="big-text">You <span id="winner">win</span></p>
 				<button class="btn" id="reset">Play again</button>
 			</div>
