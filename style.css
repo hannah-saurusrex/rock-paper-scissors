@@ -230,8 +230,27 @@ button:focus {
 }
 
 @media (max-width: 800px) {
+	.container {
+		width: 800px;
+		max-width: 100%;
+		margin: 0 auto;
+	}
+
+	header {
+		margin: 50px 0 80px 0;
+	}
+
+	header h1 {
+		font-size: 1.75rem;
+		line-height: 1.5rem;
+	}
+
+	.score-container {
+		padding: 15px 20px;
+	}
+
 	.selection .btn-circle {
-		margin: 50px 20px;
+		margin: 50px 5px;
 		transform: scale(1);
 	}
 	.go-down {
@@ -240,5 +259,10 @@ button:focus {
 
 	.selection {
 		width: 500px;
+	}
+
+	.btn-rules {
+		bottom: 80px;
+		right: 80px;
 	}
 }
