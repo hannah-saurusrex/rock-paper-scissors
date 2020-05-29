@@ -250,9 +250,14 @@ button:focus {
 	}
 
 	.selection .btn-circle {
-		margin: 50px 5px;
+		margin: 50px 0px;
 		transform: scale(1);
 	}
+
+	.btn-circle {
+		margin: 0 10px;
+	}
+
 	.go-down {
 		order: 1;
 	}
